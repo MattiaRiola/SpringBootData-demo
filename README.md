@@ -4,8 +4,7 @@ This is a simple example of spring boot data.
 
 Expense management service with rest api
 
-
-### API
+## API
 
 * GET /api/expense
   * Request
@@ -13,7 +12,7 @@ Expense management service with rest api
   * Response
     * Code:
       * 200 OK
-    * Body: 
+    * Body:
       * List of expense saved in mongodb
 
 * POST /api/expense
@@ -24,5 +23,3 @@ Expense management service with rest api
     * Code:
       * 201 CREATED
       * 500 SERVER ERROR
-
-
